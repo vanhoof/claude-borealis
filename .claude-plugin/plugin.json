@@ -1,0 +1,9 @@
+{
+  "name": "borealis",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Borealis in Catppuccin: Mocha by night, Latte by day, over a dithered aurora, ridges and a mirroring lake.",
+  "author": {
+    "name": "vanhoof"
+  }
+}

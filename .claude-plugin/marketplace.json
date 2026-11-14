@@ -1,0 +1,13 @@
+{
+  "name": "claude-borealis",
+  "owner": {
+    "name": "vanhoof"
+  },
+  "description": "Borealis Mocha: a Catppuccin aurora theme for the Claude Code desktop app.",
+  "plugins": [
+    {
+      "name": "borealis",
+      "source": "./"
+    }
+  ]
+}
