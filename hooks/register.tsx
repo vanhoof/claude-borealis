@@ -511,11 +511,9 @@ export const register: Register = on => {
     if (unpainted !== undefined) {
       $.ui.toast(unpainted)
     }
-    const set = await $.theme.set(LOOK)
-
-    if (!set.isDrawn) {
-      $.ui.status(set.reason)
-    }
+    // Not drawn (a terminal, an editor) is the normal case there, not a fault:
+    // the theme stands for the session and a desktop that attaches later draws it.
+    await $.theme.set(LOOK)
 
     return next(e)
   })
